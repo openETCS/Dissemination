@@ -1,0 +1,105 @@
+\documentclass[nocc]{template/openetcs_article} 
+\usepackage{url}
+\usepackage{longtable}
+\graphicspath{{./template/}{.}{./images/}}
+
+\begin{document}
+\frontmatter
+\project{openETCS}
+
+%Please do not change anything above this line
+%============================
+% The document metadata is defined below
+
+%assign a report number here
+\reportnum{OETCS/WP6/D6.1}
+
+%define your workpackage here
+\wp{Work-Package 6: ``Dissemination, Exploitation and Standardization''}
+
+%set a title here
+\title{Dissemination Plan and Report}
+
+%set a subtitle here
+\subtitle{First version of the project Dissemination Plan (D6.1)}
+
+%set the date of the report here
+\date{December 2012}
+
+%define a list of authors and their affiliation here
+
+\author{Sebastian Hudert\\Stefan Rieger}
+
+\affiliation{TWT GmbH\\
+Science \& Innovation\\
+Bernhäuser Straße 40-42\\
+D-73765 Neuhausen\\
+Germany}
+  
+  
+% define the coverart
+\coverart[width=350pt]{chart}
+
+%define the type of report
+\reporttype{Deliverable}
+
+
+\begin{abstract}
+%define an abstract here
+\end{abstract}
+
+%=============================
+%Do not change the next three lines
+\maketitle
+\tableofcontents
+\listoffiguresandtables
+\newpage
+%=============================
+
+% The actual document starts below this line
+%=============================
+
+\newcommand{\tableentry}{}
+
+\input{sections/introduction.tex}
+
+\input{sections/exhibitions.tex}
+
+\input{sections/conferences_external.tex}
+ 
+\input{sections/conferences_openetcs.tex}
+ 
+\input{sections/journals.tex}
+ 
+\input{sections/standardisation.tex}
+ 
+\input{sections/open_source.tex}
+
+\input{sections/further_activities.tex}
+
+\input{sections/communication.tex}
+
+%=============================
+
+\nocite{*}
+
+\bibliographystyle{unsrt}
+\bibliography{erdc}
+
+
+
+\begin{thebibliography}{9}
+
+\bibitem{lamport94}
+  Leslie Lamport,
+  \emph{\LaTeX: A Document Preparation System}.
+  Addison Wesley, Massachusetts,
+  2nd Edition,
+  1994.
+
+\end{thebibliography}
+
+%===================================================
+%Do NOT change anything below this line
+
+\end{document}
