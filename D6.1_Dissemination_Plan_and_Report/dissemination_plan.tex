@@ -1,6 +1,7 @@
 \documentclass[nocc]{template/openetcs_article} 
 \usepackage{url}
 \usepackage{longtable}
+\usepackage{ifthen}
 \graphicspath{{./template/}{.}{./images/}}
 
 \begin{document}
@@ -59,7 +60,7 @@ Germany}
 % The actual document starts below this line
 %=============================
 
-\newcommand{\tableentry}{}
+\input{macros.tex}
 
 \input{sections/introduction.tex}
 

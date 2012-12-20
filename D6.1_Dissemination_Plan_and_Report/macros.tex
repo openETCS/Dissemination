@@ -1,0 +1,14 @@
+
+\newenvironment{activity}[1]
+	{\begin{minipage}{\textwidth}
+		\begin{tabbing}
+			xxxxxxxxxxxxxxxxxxxxxxxx\=\kill\\
+			\textbf{#1}\\
+	}
+	{\end{tabbing}\end{minipage}}
+
+\newcommand{\nextactivity}{\\[2mm]\hline\\[2mm]}
+
+%\newcommand{\actname}[1]{\multicolumn{2}{l}{\bf #1}\\}
+\newcommand{\actentry}[2]{#1:\>#2\\}
+\newcommand{\actdesc}[1]{\begin{minipage}{\textwidth}\vspace{2mm}#1\end{minipage}\\}
