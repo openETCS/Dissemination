@@ -1,14 +1,9 @@
-
 \newenvironment{activity}[1]
-	{\begin{minipage}{\textwidth}
-		\begin{tabbing}
-			xxxxxxxxxxxxxxxxxxxxxxxx\=\kill\\
-			\textbf{#1}\\
+	{\begin{tabular}{p{0.25\textwidth}@{\hspace{0.05\textwidth}}p{0.7\textwidth}}
+			\multicolumn{2}{p{\textwidth}}{\textbf{#1}}\\
 	}
-	{\end{tabbing}\end{minipage}}
+	{\end{tabular}}
 
-\newcommand{\nextactivity}{\\[2mm]\hline\\[2mm]}
-
-%\newcommand{\actname}[1]{\multicolumn{2}{l}{\bf #1}\\}
-\newcommand{\actentry}[2]{#1:\>#2\\}
-\newcommand{\actdesc}[1]{\begin{minipage}{\textwidth}\vspace{2mm}#1\end{minipage}\\}
+\newcommand{\entry}[2]{#1:&#2\\}
+\newcommand{\website}[1]{Website:&\url{#1}\\}
+\newcommand{\desc}[1]{\multicolumn{2}{p{\textwidth}}{#1}\\}
