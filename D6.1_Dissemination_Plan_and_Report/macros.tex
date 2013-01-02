@@ -1,6 +1,6 @@
-\newenvironment{activity}[1]
+\newenvironment{activity}[2][planned]
 	{\begin{tabular}{p{0.25\textwidth}@{\hspace{0.05\textwidth}}p{0.7\textwidth}}
-			\multicolumn{2}{p{\textwidth}}{\textbf{#1}}\\
+			\multicolumn{2}{p{\textwidth}}{\colorbox{black}{\begin{minipage}{1.1cm}\begin{center}\textsc{\footnotesize \textcolor{white}{#1}}\end{center}\end{minipage}}~~\textbf{#2}}\\
 	}
 	{\end{tabular}}
 
