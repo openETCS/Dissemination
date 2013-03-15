@@ -6,6 +6,8 @@
 
 \graphicspath{{./template/}{.}{./images/}}
 
+\input{macros.tex}
+
 \begin{document}
 \frontmatter
 \project{openETCS}
@@ -31,14 +33,30 @@
 
 %define a list of authors and their affiliation here
 
-\author{Sebastian Hudert\\Stefan Rieger}
+
+\author{Frank Golatowski}
+
+\affiliation{
+University of Rostock\\
+Faculty of Computer Science and Electrical Engineering\\
+Institute of Applied Mikroelektronics and Computer Engineering\\
+Richard-Wagner Str. 31\\
+18119 Rostock-Warnemuende\\
+Germany
+}
+
+\author{Stefan Rieger}
 
 \affiliation{TWT GmbH\\
 Science \& Innovation\\
 Bernhäuser Straße 40-42\\
 D-73765 Neuhausen\\
-Germany}
-  
+Germany
+}
+
+\author{\red{@all: Add your name if you contributed}}
+
+\affiliation{\red{@all: Add your affiliation if you contributed}}
   
 % define the coverart
 \coverart[width=350pt]{chart}
@@ -62,7 +80,7 @@ Germany}
 % The actual document starts below this line
 %=============================
 
-\input{macros.tex}
+
 
 \input{sections/introduction.tex}
 
