@@ -9,6 +9,7 @@ __List of directories:__
 * **ProjectPublications**: Project publications under openETCS Open License (PDFs)
 * **PublishingGuideline**: openETCS publishing guideline (LaTeX/PDF-version, there is also a [Wiki page](https://github.com/openETCS/Dissemination/wiki/Publishing-Guideline))
 * **RelevantPublications**: Publications relevant to openETCS (but not funded in its context) under openETCS Open License (PDFs)
+* **ProjectPosters**: Posters for presenting the openETCS project (PDF and Adobe Illustrator files)
 * **wiki_images**: Images for Wiki entries
 
 Note that D6.2 "Initial Exploitation Plan and Standardization Strategy" is located in the dissemination-management repository
