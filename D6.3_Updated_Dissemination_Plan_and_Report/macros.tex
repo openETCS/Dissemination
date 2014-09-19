@@ -1,0 +1,12 @@
+\newenvironment{activity}[1]
+	{\begin{tabular}{p{0.25\textwidth}@{\hspace{0.05\textwidth}}p{0.7\textwidth}}
+			\multicolumn{2}{p{\textwidth}}{\textbf{#1}}\\
+	}
+	{\end{tabular}}
+
+\newcommand{\entry}[2]{#1:&#2\\}
+\newcommand{\website}[1]{Website:&\url{#1}\\}
+\newcommand{\desc}[1]{\multicolumn{2}{p{\textwidth}}{#1}\\}
+\newcommand{\tbc}[1][]{\textcolor{red}{To be completed #1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\comment}[1]{ }
