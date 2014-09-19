@@ -1,0 +1,168 @@
+%\documentclass[nocc]{template/openetcs_article}
+\documentclass{template/openetcs_article}  
+\usepackage{longtable}
+\usepackage{ifthen}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+\graphicspath{{./template/}{.}{./images/}}
+
+\input{macros.tex}
+
+\begin{document}
+\frontmatter
+\project{openETCS}
+
+%Please do not change anything above this line
+%============================
+% The document metadata is defined below
+
+%assign a report number here
+\reportnum{OETCS/WP6/D6.3}
+
+%define your workpackage here
+\wp{Work-Package 6: ``Dissemination, Exploitation and Standardization''}
+
+%set a title here
+\title{Updated Dissemination Plan and Report}
+
+%set a subtitle here
+\subtitle{Updated Project Dissemination Plan and Report (D6.3)}
+
+%set the date of the report here
+\date{September 2014}
+
+%document approval
+%define the name and affiliation of the people involved in the documents approbation here
+\creatorname{Dr. Stefan Rieger}
+\creatoraffil{TWT GmbH}
+
+\techassessorname{Dr. Peter Mahlmann}
+\techassessoraffil{DB Netz AG}
+
+\qualityassessorname{-}
+\qualityassessoraffil{-}
+
+\approvalname{Dr. Klaus-R\"udiger Hase}
+\approvalaffil{DB Netz AG}
+
+%define a list of authors and their affiliation here
+
+
+\author{Dr. Michael Ditze \and Dr. Stefan Rieger}
+
+\affiliation{TWT GmbH\\
+Science \& Innovation\\
+Ernsthaldenstrasse 17\\
+70565 Stuttgart, Germany}
+
+
+\author{Dr. Frank Golatowski \and Alexander Nitsch}
+
+\affiliation{
+University of Rostock\\
+Faculty of Computer Science and Electrical Engineering\\
+Institute of Applied Mikroelektronics and Computer Engineering\\
+Richard-Wagner Str. 31\\
+18119 Rostock-Warnemuende\\
+Germany
+}
+
+\author{Dr. Peter Mahlmann}
+
+\affiliation{
+DB Netz AG\\
+Völckerstraße 5\\
+D-80939 München\\
+Germany
+}
+
+
+\author{Hansj\"org Manz \and Jan Welte}
+
+\affiliation{Technische Universit\"at Braunschweig\\
+  Institute for Traffic Safety and Automation Engineering\\
+  Langer Kamp 8\\
+  D-38106 Braunschweig\\
+  Germany}
+
+\author{Alexander Stante}
+
+\affiliation{Fraunhofer-Einrichtung f\"ur\\
+  Systeme der Kommunikationstechnik ESK\\
+  Hansastr. 32\\
+  D-80686 M\"unchen\\
+  Germany}
+
+
+%\author{\red{@all: Add your name if you contributed}}
+
+%\affiliation{\red{@all: Add your affiliation if you contributed}}
+  
+% define the coverart
+\coverart[width=350pt]{openETCS_EUPL.png}
+
+%define the type of report
+\reporttype{Deliverable}
+
+
+\begin{abstract}
+This document is the second version of the openETCS dissemination plan and report. It represents the project dissemination strategy and covers past and as well as planned dissemination activities. There will be an updated version to this document (D6.5).
+\end{abstract}
+
+%=============================
+%Do not change the next three lines
+\maketitle
+\tableofcontents
+%\listoffiguresandtables
+\newpage
+%=============================
+
+% The actual document starts below this line
+%=============================
+
+
+
+\input{sections/introduction.tex}
+
+\input{sections/past_activities.tex}
+
+\input{sections/exhibitions.tex}
+
+\input{sections/conferences_external.tex}
+ 
+\input{sections/journals.tex}
+
+\input{sections/conferences_openetcs.tex}
+
+%Removed from the document -> exploitation plan 
+%\input{sections/standardisation.tex}
+ 
+%Removed from the document (relevance not clear and no input provided)
+%\input{sections/open_source.tex}
+
+\input{sections/further_activities.tex}
+
+%Removed from the document
+%\input{sections/communication.tex}
+
+%=============================
+
+\nocite{*}
+
+\bibliographystyle{unsrt}
+\bibliography{erdc}
+
+
+
+\begin{thebibliography}{9}
+  \bibitem{gittool}The Git Tool: \url{http://git-scm.com/}.
+  \bibitem{github}The GitHub Platform: \url{http://github.com/}.
+
+
+\end{thebibliography}
+
+%===================================================
+%Do NOT change anything below this line
+
+\end{document}
