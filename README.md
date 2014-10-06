@@ -5,6 +5,7 @@ WP6 top-level repository
 
 __List of directories:__
 * **D6.1_Dissemination_Plan_and_Report**: Contains the D6.1 deliverable (Dissemination Plan and Report)
+* **D6.3_Updated_Dissemination_Plan_and_Report**: Contains the D6.3 deliverable (Updated Dissemination Plan and Report)
 * **Reference_Library**: Export from the openETCS Zotero database containing relevant literature and project publications in BibTeX format.
 * **ProjectPublications**: Project publications under openETCS Open License (PDFs)
 * **PublishingGuideline**: openETCS publishing guideline (LaTeX/PDF-version, there is also a [Wiki page](https://github.com/openETCS/Dissemination/wiki/Publishing-Guideline))
